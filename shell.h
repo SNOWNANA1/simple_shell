@@ -8,8 +8,8 @@
 #include <stdbool.h>
 
 void display_prompt(void);
-void stevefrancis_print(const char *message);
+void stevefrancis_print(const char *string);
 void read_command(char *command, size_t size);
-void execute_command(const char *command);
+void execute_command(const char *message);
 
 #endif /* SHELL_H */
